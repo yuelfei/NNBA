@@ -1,0 +1,178 @@
+2019-11-10 19:28:12,845 - ./log/train_bert_keras_batch_size.txt  - INFO - 
+
+
+全匹配方式生成三个数据集，开始训练
+
+
+2019-11-10 19:28:12,845 - ./log/train_bert_keras_batch_size.txt  - INFO - 学习率:0.001
+2019-11-10 19:28:12,845 - ./log/train_bert_keras_batch_size.txt  - INFO - batch_size的数值是:256
+
+2019-11-10 19:28:12,845 - ./log/train_bert_keras_batch_size.txt  - INFO - 生成训练集.........
+2019-11-10 19:29:51,629 - ./log/train_bert_keras_batch_size.txt  - INFO - 
+
+
+全匹配方式生成三个数据集，开始训练
+
+
+2019-11-10 19:29:51,629 - ./log/train_bert_keras_batch_size.txt  - INFO - 学习率:0.001
+2019-11-10 19:29:51,629 - ./log/train_bert_keras_batch_size.txt  - INFO - batch_size的数值是:256
+
+2019-11-10 19:29:51,630 - ./log/train_bert_keras_batch_size.txt  - INFO - 生成训练集.........
+2019-11-10 19:31:23,411 - ./log/train_bert_keras_batch_size.txt  - INFO - 从ACE文件中得出的用于训练的实体集:
+2019-11-10 19:31:23,412 - ./log/train_bert_keras_batch_size.txt  - INFO - 正例数目：19586      负例数目：20486
+2019-11-10 19:31:23,412 - ./log/train_bert_keras_batch_size.txt  - INFO - 详细情况如下：
+2019-11-10 19:31:23,412 - ./log/train_bert_keras_batch_size.txt  - INFO - {'LOC': 973, 'NEG': 20486, 'ORG': 3969, 'WEA': 245, 'GPE': 4881, 'VEH': 360, 'PER': 8128, 'FAC': 1030}
+2019-11-10 19:31:23,453 - ./log/train_bert_keras_batch_size.txt  - INFO - 生成验证集.........
+2019-11-10 19:31:50,540 - ./log/train_bert_keras_batch_size.txt  - INFO - 从ACE文件中得出的用于验证的实体集:
+2019-11-10 19:31:50,540 - ./log/train_bert_keras_batch_size.txt  - INFO - 正例数目：6562      负例数目：7331
+2019-11-10 19:31:50,540 - ./log/train_bert_keras_batch_size.txt  - INFO - 详细情况如下：
+2019-11-10 19:31:50,540 - ./log/train_bert_keras_batch_size.txt  - INFO - {'LOC': 278, 'NEG': 7331, 'ORG': 1242, 'WEA': 63, 'GPE': 1914, 'VEH': 170, 'PER': 2620, 'FAC': 275}
+2019-11-10 19:31:50,552 - ./log/train_bert_keras_batch_size.txt  - INFO - 生成测试集.........
+2019-11-10 19:32:18,913 - ./log/train_bert_keras_batch_size.txt  - INFO - 从BERT边界识别文件中得出的用于测试的候选实体集数目分布:
+2019-11-10 19:32:18,914 - ./log/train_bert_keras_batch_size.txt  - INFO - 正例数目：7006      负例数目：7993
+2019-11-10 19:32:18,914 - ./log/train_bert_keras_batch_size.txt  - INFO - 详细情况如下：
+2019-11-10 19:32:18,914 - ./log/train_bert_keras_batch_size.txt  - INFO - {'F': 318, 'O': 1289, 'W': 60, 'L': 239, 'V': 111, 'G': 1695, 'P': 3294, 'N': 7993}
+2019-11-10 19:41:12,331 - ./log/train_bert_keras_batch_size.txt  - INFO - 
+
+
+全匹配方式生成三个数据集，开始训练
+
+
+2019-11-10 19:41:12,331 - ./log/train_bert_keras_batch_size.txt  - INFO - 学习率:0.001
+2019-11-10 19:41:12,331 - ./log/train_bert_keras_batch_size.txt  - INFO - batch_size的数值是:256
+
+2019-11-10 19:41:12,331 - ./log/train_bert_keras_batch_size.txt  - INFO - 生成训练集.........
+2019-11-10 19:42:40,671 - ./log/train_bert_keras_batch_size.txt  - INFO - 从ACE文件中得出的用于训练的实体集:
+2019-11-10 19:42:40,671 - ./log/train_bert_keras_batch_size.txt  - INFO - 正例数目：19586      负例数目：20486
+2019-11-10 19:42:40,671 - ./log/train_bert_keras_batch_size.txt  - INFO - 详细情况如下：
+2019-11-10 19:42:40,671 - ./log/train_bert_keras_batch_size.txt  - INFO - {'WEA': 245, 'FAC': 1030, 'ORG': 3969, 'PER': 8128, 'VEH': 360, 'NEG': 20486, 'GPE': 4881, 'LOC': 973}
+2019-11-10 19:42:40,713 - ./log/train_bert_keras_batch_size.txt  - INFO - 生成验证集.........
+2019-11-10 19:43:06,250 - ./log/train_bert_keras_batch_size.txt  - INFO - 从ACE文件中得出的用于验证的实体集:
+2019-11-10 19:43:06,250 - ./log/train_bert_keras_batch_size.txt  - INFO - 正例数目：6562      负例数目：7331
+2019-11-10 19:43:06,251 - ./log/train_bert_keras_batch_size.txt  - INFO - 详细情况如下：
+2019-11-10 19:43:06,251 - ./log/train_bert_keras_batch_size.txt  - INFO - {'WEA': 63, 'FAC': 275, 'ORG': 1242, 'PER': 2620, 'VEH': 170, 'NEG': 7331, 'GPE': 1914, 'LOC': 278}
+2019-11-10 19:43:06,264 - ./log/train_bert_keras_batch_size.txt  - INFO - 生成测试集.........
+2019-11-10 19:43:35,128 - ./log/train_bert_keras_batch_size.txt  - INFO - 从BERT边界识别文件中得出的用于测试的候选实体集数目分布:
+2019-11-10 19:43:35,129 - ./log/train_bert_keras_batch_size.txt  - INFO - 正例数目：7006      负例数目：7993
+2019-11-10 19:43:35,129 - ./log/train_bert_keras_batch_size.txt  - INFO - 详细情况如下：
+2019-11-10 19:43:35,129 - ./log/train_bert_keras_batch_size.txt  - INFO - {'V': 111, 'F': 318, 'W': 60, 'N': 7993, 'L': 239, 'G': 1695, 'P': 3294, 'O': 1289}
+2019-11-10 19:44:27,296 - ./log/train_bert_keras_batch_size.txt  - INFO - 开始性能评估..............
+2019-11-10 19:44:27,401 - ./log/train_bert_keras_batch_size.txt  - INFO - -------------------------正例性能---------------------------------
+2019-11-10 19:44:27,401 - ./log/train_bert_keras_batch_size.txt  - INFO - 测试集中的正例: 7560
+2019-11-10 19:44:27,401 - ./log/train_bert_keras_batch_size.txt  - INFO - 预测结果中的正例: 8192
+2019-11-10 19:44:27,402 - ./log/train_bert_keras_batch_size.txt  - INFO - 预测为正例的结果中真正的正例: 6571
+2019-11-10 19:44:27,402 - ./log/train_bert_keras_batch_size.txt  - INFO - Precision:  80.21
+2019-11-10 19:44:27,402 - ./log/train_bert_keras_batch_size.txt  - INFO - Recall: 86.92
+2019-11-10 19:44:27,402 - ./log/train_bert_keras_batch_size.txt  - INFO - F1: 83.43
+2019-11-10 19:44:27,402 - ./log/train_bert_keras_batch_size.txt  - INFO - -------------------------负例性能---------------------------------
+2019-11-10 19:44:27,402 - ./log/train_bert_keras_batch_size.txt  - INFO - 测试集中的负例:  7993
+2019-11-10 19:44:27,402 - ./log/train_bert_keras_batch_size.txt  - INFO - 预测结果中的负例: 6807
+2019-11-10 19:44:27,402 - ./log/train_bert_keras_batch_size.txt  - INFO - 预测为负例的结果中真正的负例: 6372
+2019-11-10 19:44:27,402 - ./log/train_bert_keras_batch_size.txt  - INFO - Precision:  93.61
+2019-11-10 19:44:27,402 - ./log/train_bert_keras_batch_size.txt  - INFO - Recall: 79.72
+2019-11-10 19:44:27,402 - ./log/train_bert_keras_batch_size.txt  - INFO - F1: 86.11
+2019-11-10 19:50:02,699 - ./log/train_bert_keras_batch_size.txt  - INFO - 
+
+
+全匹配方式生成三个数据集，开始训练
+
+
+2019-11-10 19:50:02,699 - ./log/train_bert_keras_batch_size.txt  - INFO - 学习率:0.001
+2019-11-10 19:50:02,699 - ./log/train_bert_keras_batch_size.txt  - INFO - batch_size的数值是:256
+
+2019-11-10 19:50:02,700 - ./log/train_bert_keras_batch_size.txt  - INFO - 生成训练集.........
+2019-11-10 19:51:33,964 - ./log/train_bert_keras_batch_size.txt  - INFO - 从ACE文件中得出的用于训练的实体集:
+2019-11-10 19:51:33,964 - ./log/train_bert_keras_batch_size.txt  - INFO - 正例数目：19586      负例数目：20486
+2019-11-10 19:51:33,964 - ./log/train_bert_keras_batch_size.txt  - INFO - 详细情况如下：
+2019-11-10 19:51:33,965 - ./log/train_bert_keras_batch_size.txt  - INFO - {'NEG': 20486, 'PER': 8128, 'WEA': 245, 'GPE': 4881, 'LOC': 973, 'FAC': 1030, 'ORG': 3969, 'VEH': 360}
+2019-11-10 19:51:34,011 - ./log/train_bert_keras_batch_size.txt  - INFO - 生成验证集.........
+2019-11-10 19:51:58,161 - ./log/train_bert_keras_batch_size.txt  - INFO - 从ACE文件中得出的用于验证的实体集:
+2019-11-10 19:51:58,161 - ./log/train_bert_keras_batch_size.txt  - INFO - 正例数目：6562      负例数目：7331
+2019-11-10 19:51:58,161 - ./log/train_bert_keras_batch_size.txt  - INFO - 详细情况如下：
+2019-11-10 19:51:58,161 - ./log/train_bert_keras_batch_size.txt  - INFO - {'NEG': 7331, 'PER': 2620, 'WEA': 63, 'GPE': 1914, 'LOC': 278, 'FAC': 275, 'ORG': 1242, 'VEH': 170}
+2019-11-10 19:51:58,174 - ./log/train_bert_keras_batch_size.txt  - INFO - 生成测试集.........
+2019-11-10 19:52:29,250 - ./log/train_bert_keras_batch_size.txt  - INFO - 从BERT边界识别文件中得出的用于测试的候选实体集数目分布:
+2019-11-10 19:52:29,250 - ./log/train_bert_keras_batch_size.txt  - INFO - 正例数目：7006      负例数目：7993
+2019-11-10 19:52:29,250 - ./log/train_bert_keras_batch_size.txt  - INFO - 详细情况如下：
+2019-11-10 19:52:29,250 - ./log/train_bert_keras_batch_size.txt  - INFO - {'F': 318, 'W': 60, 'N': 7993, 'V': 111, 'P': 3294, 'L': 239, 'G': 1695, 'O': 1289}
+2019-11-10 19:52:30,749 - ./log/train_bert_keras_batch_size.txt  - INFO - 删除已存在的模型文件.......
+2019-11-10 20:11:50,246 - ./log/train_bert_keras_batch_size.txt  - INFO - 开始性能评估..............
+2019-11-10 20:11:50,335 - ./log/train_bert_keras_batch_size.txt  - INFO - -------------------------正例性能---------------------------------
+2019-11-10 20:11:50,336 - ./log/train_bert_keras_batch_size.txt  - INFO - 测试集中的正例: 7560
+2019-11-10 20:11:50,336 - ./log/train_bert_keras_batch_size.txt  - INFO - 预测结果中的正例: 7767
+2019-11-10 20:11:50,336 - ./log/train_bert_keras_batch_size.txt  - INFO - 预测为正例的结果中真正的正例: 6707
+2019-11-10 20:11:50,336 - ./log/train_bert_keras_batch_size.txt  - INFO - Precision:  86.35
+2019-11-10 20:11:50,336 - ./log/train_bert_keras_batch_size.txt  - INFO - Recall: 88.72
+2019-11-10 20:11:50,336 - ./log/train_bert_keras_batch_size.txt  - INFO - F1: 87.52
+2019-11-10 20:11:50,336 - ./log/train_bert_keras_batch_size.txt  - INFO - -------------------------负例性能---------------------------------
+2019-11-10 20:11:50,336 - ./log/train_bert_keras_batch_size.txt  - INFO - 测试集中的负例:  7993
+2019-11-10 20:11:50,336 - ./log/train_bert_keras_batch_size.txt  - INFO - 预测结果中的负例: 7232
+2019-11-10 20:11:50,336 - ./log/train_bert_keras_batch_size.txt  - INFO - 预测为负例的结果中真正的负例: 6933
+2019-11-10 20:11:50,336 - ./log/train_bert_keras_batch_size.txt  - INFO - Precision:  95.87
+2019-11-10 20:11:50,336 - ./log/train_bert_keras_batch_size.txt  - INFO - Recall: 86.74
+2019-11-10 20:11:50,336 - ./log/train_bert_keras_batch_size.txt  - INFO - F1: 91.07
+2019-11-10 20:17:13,921 - ./log/train_bert_keras_batch_size.txt  - INFO - 
+
+
+全匹配方式生成三个数据集，开始训练
+
+
+2019-11-10 20:17:13,921 - ./log/train_bert_keras_batch_size.txt  - INFO - 学习率:0.001
+2019-11-10 20:17:13,921 - ./log/train_bert_keras_batch_size.txt  - INFO - batch_size的数值是:256
+
+2019-11-10 20:17:13,921 - ./log/train_bert_keras_batch_size.txt  - INFO - 生成训练集.........
+2019-11-10 20:18:45,461 - ./log/train_bert_keras_batch_size.txt  - INFO - 从ACE文件中得出的用于训练的实体集:
+2019-11-10 20:18:45,461 - ./log/train_bert_keras_batch_size.txt  - INFO - 正例数目：19586      负例数目：20486
+2019-11-10 20:18:45,461 - ./log/train_bert_keras_batch_size.txt  - INFO - 详细情况如下：
+2019-11-10 20:18:45,461 - ./log/train_bert_keras_batch_size.txt  - INFO - {'NEG': 20486, 'GPE': 4881, 'LOC': 973, 'FAC': 1030, 'PER': 8128, 'WEA': 245, 'VEH': 360, 'ORG': 3969}
+2019-11-10 20:18:45,503 - ./log/train_bert_keras_batch_size.txt  - INFO - 生成验证集.........
+2019-11-10 20:19:10,158 - ./log/train_bert_keras_batch_size.txt  - INFO - 从ACE文件中得出的用于验证的实体集:
+2019-11-10 20:19:10,159 - ./log/train_bert_keras_batch_size.txt  - INFO - 正例数目：6562      负例数目：7331
+2019-11-10 20:19:10,159 - ./log/train_bert_keras_batch_size.txt  - INFO - 详细情况如下：
+2019-11-10 20:19:10,159 - ./log/train_bert_keras_batch_size.txt  - INFO - {'NEG': 7331, 'GPE': 1914, 'LOC': 278, 'FAC': 275, 'PER': 2620, 'WEA': 63, 'VEH': 170, 'ORG': 1242}
+2019-11-10 20:19:10,175 - ./log/train_bert_keras_batch_size.txt  - INFO - 生成测试集.........
+2019-11-10 20:19:43,465 - ./log/train_bert_keras_batch_size.txt  - INFO - 从BERT边界识别文件中得出的用于测试的候选实体集数目分布:
+2019-11-10 20:19:43,466 - ./log/train_bert_keras_batch_size.txt  - INFO - 正例数目：7006      负例数目：7993
+2019-11-10 20:19:43,466 - ./log/train_bert_keras_batch_size.txt  - INFO - 详细情况如下：
+2019-11-10 20:19:43,466 - ./log/train_bert_keras_batch_size.txt  - INFO - {'G': 1695, 'N': 7993, 'V': 111, 'P': 3294, 'L': 239, 'F': 318, 'W': 60, 'O': 1289}
+2019-11-10 20:19:44,928 - ./log/train_bert_keras_batch_size.txt  - INFO - 删除已存在的模型文件.......
+2019-11-10 20:32:24,905 - ./log/train_bert_keras_batch_size.txt  - INFO - 
+
+
+全匹配方式生成三个数据集，开始训练
+
+
+2019-11-10 20:32:24,905 - ./log/train_bert_keras_batch_size.txt  - INFO - 学习率:0.001
+2019-11-10 20:32:24,905 - ./log/train_bert_keras_batch_size.txt  - INFO - batch_size的数值是:256
+
+2019-11-10 20:32:24,905 - ./log/train_bert_keras_batch_size.txt  - INFO - 生成训练集.........
+2019-11-10 20:34:08,593 - ./log/train_bert_keras_batch_size.txt  - INFO - 从ACE文件中得出的用于训练的实体集:
+2019-11-10 20:34:08,593 - ./log/train_bert_keras_batch_size.txt  - INFO - 正例数目：19586      负例数目：20486
+2019-11-10 20:34:08,593 - ./log/train_bert_keras_batch_size.txt  - INFO - 详细情况如下：
+2019-11-10 20:34:08,593 - ./log/train_bert_keras_batch_size.txt  - INFO - {'FAC': 1030, 'PER': 8128, 'GPE': 4881, 'NEG': 20486, 'LOC': 973, 'WEA': 245, 'VEH': 360, 'ORG': 3969}
+2019-11-10 20:34:08,633 - ./log/train_bert_keras_batch_size.txt  - INFO - 生成验证集.........
+2019-11-10 20:34:33,592 - ./log/train_bert_keras_batch_size.txt  - INFO - 从ACE文件中得出的用于验证的实体集:
+2019-11-10 20:34:33,592 - ./log/train_bert_keras_batch_size.txt  - INFO - 正例数目：6562      负例数目：7331
+2019-11-10 20:34:33,592 - ./log/train_bert_keras_batch_size.txt  - INFO - 详细情况如下：
+2019-11-10 20:34:33,592 - ./log/train_bert_keras_batch_size.txt  - INFO - {'FAC': 275, 'PER': 2620, 'GPE': 1914, 'NEG': 7331, 'LOC': 278, 'WEA': 63, 'VEH': 170, 'ORG': 1242}
+2019-11-10 20:34:33,604 - ./log/train_bert_keras_batch_size.txt  - INFO - 生成测试集.........
+2019-11-10 20:35:01,334 - ./log/train_bert_keras_batch_size.txt  - INFO - 从BERT边界识别文件中得出的用于测试的候选实体集数目分布:
+2019-11-10 20:35:01,334 - ./log/train_bert_keras_batch_size.txt  - INFO - 正例数目：7006      负例数目：7993
+2019-11-10 20:35:01,335 - ./log/train_bert_keras_batch_size.txt  - INFO - 详细情况如下：
+2019-11-10 20:35:01,335 - ./log/train_bert_keras_batch_size.txt  - INFO - {'F': 318, 'O': 1289, 'L': 239, 'W': 60, 'V': 111, 'N': 7993, 'G': 1695, 'P': 3294}
+2019-11-10 20:35:02,788 - ./log/train_bert_keras_batch_size.txt  - INFO - 删除已存在的模型文件.......
+2019-11-10 21:11:07,233 - ./log/train_bert_keras_batch_size.txt  - INFO - 测试集--> 开始性能评估..............
+2019-11-10 21:11:07,333 - ./log/train_bert_keras_batch_size.txt  - INFO - -------------------------正例性能---------------------------------
+2019-11-10 21:11:07,334 - ./log/train_bert_keras_batch_size.txt  - INFO - 测试集中的正例: 7560
+2019-11-10 21:11:07,334 - ./log/train_bert_keras_batch_size.txt  - INFO - 预测结果中的正例: 7437
+2019-11-10 21:11:07,334 - ./log/train_bert_keras_batch_size.txt  - INFO - 预测为正例的结果中真正的正例: 6685
+2019-11-10 21:11:07,334 - ./log/train_bert_keras_batch_size.txt  - INFO - Precision:  89.89
+2019-11-10 21:11:07,334 - ./log/train_bert_keras_batch_size.txt  - INFO - Recall: 88.43
+2019-11-10 21:11:07,334 - ./log/train_bert_keras_batch_size.txt  - INFO - F1: 89.15
+2019-11-10 21:11:07,334 - ./log/train_bert_keras_batch_size.txt  - INFO - -------------------------负例性能---------------------------------
+2019-11-10 21:11:07,334 - ./log/train_bert_keras_batch_size.txt  - INFO - 测试集中的负例:  7993
+2019-11-10 21:11:07,334 - ./log/train_bert_keras_batch_size.txt  - INFO - 预测结果中的负例: 7562
+2019-11-10 21:11:07,334 - ./log/train_bert_keras_batch_size.txt  - INFO - 预测为负例的结果中真正的负例: 7241
+2019-11-10 21:11:07,335 - ./log/train_bert_keras_batch_size.txt  - INFO - Precision:  95.76
+2019-11-10 21:11:07,335 - ./log/train_bert_keras_batch_size.txt  - INFO - Recall: 90.59
+2019-11-10 21:11:07,335 - ./log/train_bert_keras_batch_size.txt  - INFO - F1: 93.1

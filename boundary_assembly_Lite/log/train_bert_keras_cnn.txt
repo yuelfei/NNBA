@@ -1,0 +1,39 @@
+2019-03-14 21:25:58,862 - ./log/train_bert_keras_cnn.txt  - INFO - 
+
+
+全匹配方式生成三个数据集，开始训练
+
+
+2019-03-14 21:25:58,864 - ./log/train_bert_keras_cnn.txt  - INFO - 学习率:0.001
+2019-03-14 21:25:58,864 - ./log/train_bert_keras_cnn.txt  - INFO - batch_size的数值是:256
+
+2019-03-14 21:25:58,864 - ./log/train_bert_keras_cnn.txt  - INFO - 生成训练集.........
+2019-03-14 21:26:05,543 - ./log/train_bert_keras_cnn.txt  - INFO - 从ACE文件中得出的用于训练的实体集:
+2019-03-14 21:26:05,543 - ./log/train_bert_keras_cnn.txt  - INFO - 正例数目：206      负例数目：195
+2019-03-14 21:26:05,544 - ./log/train_bert_keras_cnn.txt  - INFO - 详细情况如下：
+2019-03-14 21:26:05,544 - ./log/train_bert_keras_cnn.txt  - INFO - {'FAC': 18, 'GPE': 44, 'LOC': 7, 'NEG': 195, 'ORG': 68, 'PER': 63, 'VEH': 4, 'WEA': 2}
+2019-03-14 21:26:05,576 - ./log/train_bert_keras_cnn.txt  - INFO - 生成验证集.........
+2019-03-14 21:26:08,862 - ./log/train_bert_keras_cnn.txt  - INFO - 从ACE文件中得出的用于验证的实体集:
+2019-03-14 21:26:08,863 - ./log/train_bert_keras_cnn.txt  - INFO - 正例数目：70      负例数目：55
+2019-03-14 21:26:08,863 - ./log/train_bert_keras_cnn.txt  - INFO - 详细情况如下：
+2019-03-14 21:26:08,863 - ./log/train_bert_keras_cnn.txt  - INFO - {'FAC': 9, 'GPE': 8, 'LOC': 4, 'NEG': 55, 'ORG': 3, 'PER': 45, 'VEH': 1}
+2019-03-14 21:26:08,887 - ./log/train_bert_keras_cnn.txt  - INFO - 生成测试集.........
+2019-03-14 21:26:18,464 - ./log/train_bert_keras_cnn.txt  - INFO - 从BERT边界识别文件中得出的用于测试的候选实体集数目分布:
+2019-03-14 21:26:18,465 - ./log/train_bert_keras_cnn.txt  - INFO - 正例数目：188      负例数目：215
+2019-03-14 21:26:18,465 - ./log/train_bert_keras_cnn.txt  - INFO - 详细情况如下：
+2019-03-14 21:26:18,465 - ./log/train_bert_keras_cnn.txt  - INFO - {'F': 10, 'G': 25, 'L': 4, 'N': 215, 'O': 39, 'P': 107, 'W': 3}
+2019-03-14 21:27:25,644 - ./log/train_bert_keras_cnn.txt  - INFO - 开始性能评估..............
+2019-03-14 21:27:25,666 - ./log/train_bert_keras_cnn.txt  - INFO - -------------------------正例性能---------------------------------
+2019-03-14 21:27:25,666 - ./log/train_bert_keras_cnn.txt  - INFO - 测试集中的正例: 7560
+2019-03-14 21:27:25,666 - ./log/train_bert_keras_cnn.txt  - INFO - 预测结果中的正例: 227
+2019-03-14 21:27:25,666 - ./log/train_bert_keras_cnn.txt  - INFO - 预测为正例的结果中真正的正例: 160
+2019-03-14 21:27:25,669 - ./log/train_bert_keras_cnn.txt  - INFO - Precision:  70.48
+2019-03-14 21:27:25,669 - ./log/train_bert_keras_cnn.txt  - INFO - Recall: 2.12
+2019-03-14 21:27:25,669 - ./log/train_bert_keras_cnn.txt  - INFO - F1: 4.11
+2019-03-14 21:27:25,670 - ./log/train_bert_keras_cnn.txt  - INFO - -------------------------负例性能---------------------------------
+2019-03-14 21:27:25,670 - ./log/train_bert_keras_cnn.txt  - INFO - 测试集中的负例:  215
+2019-03-14 21:27:25,670 - ./log/train_bert_keras_cnn.txt  - INFO - 预测结果中的负例: 176
+2019-03-14 21:27:25,670 - ./log/train_bert_keras_cnn.txt  - INFO - 预测为负例的结果中真正的负例: 148
+2019-03-14 21:27:25,670 - ./log/train_bert_keras_cnn.txt  - INFO - Precision:  84.09
+2019-03-14 21:27:25,670 - ./log/train_bert_keras_cnn.txt  - INFO - Recall: 68.84
+2019-03-14 21:27:25,670 - ./log/train_bert_keras_cnn.txt  - INFO - F1: 75.7
