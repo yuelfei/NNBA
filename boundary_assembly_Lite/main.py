@@ -94,7 +94,7 @@ def train():
 
     print("\n"+"验证集。。。。。。。")
     y_pre = model.predict([dev_left_list, dev_entity_left, dev_entity_right, dev_right_list])
-    performance_on_positives_binary(new_dev_label.argmax(-1), y_pre.argmax(-1))#二分类性能
+    performance_on_positives_bert_logger(new_dev_label.argmax(-1), y_pre.argmax(-1),logger)#二分类性能
 
     # print("--------------------多分类------------------------")
     # y_pre = model.predict([test_left_list, test_entity_left, test_entity_right, test_right_list])

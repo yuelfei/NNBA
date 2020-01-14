@@ -504,7 +504,7 @@ def performance_on_positives_boundry_mul_class(y_test, y_pred):
     true_index_list=[0,1,2,3,4,5,6]
     type_list=["VEH","LOC","WEA","GPE","PER","ORG","FAC"]
 
-    list_true_test_num=[129,289,69,1798,3496,1402,377]#测试集中的正例
+    list_true_test_num=[0,0,0,0,0,0,0]#测试集中的正例，需要统计
 
     list_pred_num=[]##模型预测了多少个正例
     list_true_pre_num=[]#模型预测的正例中有多少个是正确的
@@ -576,7 +576,7 @@ def performance_on_positives_bert(y_test, y_pred):
     true_index = 0#（1,0）
     false_index = 1
 
-    positive_true_test_num = 7560
+    positive_true_test_num = "*"#统计数目
     positive_pred_num = 0#模型总共预测了多少个正例
     positive_true_pre_num=0#模型预测的正例中有多少个是正确的
 
@@ -640,7 +640,7 @@ def performance_on_positives_bert_logger(y_test, y_pred,logger):
     true_index = 0#（1,0）
     false_index = 1
 
-    positive_true_test_num = 7560
+    positive_true_test_num = "*"#实体总数
     positive_pred_num = 0#模型总共预测了多少个正例
     positive_true_pre_num=0#模型预测的正例中有多少个是正确的
 
